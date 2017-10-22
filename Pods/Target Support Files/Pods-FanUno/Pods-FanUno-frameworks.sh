@@ -102,20 +102,20 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-iOS10.2/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-iOS10.2/AlamofireObjectMapper.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Koloda-iOS10.2/Koloda.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS10.2/ObjectMapper.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage-iOS10.2/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/pop-iOS10.2/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-iOS10.2/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-iOS10.2/AlamofireObjectMapper.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Koloda-iOS10.2/Koloda.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS10.2/ObjectMapper.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage-iOS10.2/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/pop-iOS10.2/pop.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

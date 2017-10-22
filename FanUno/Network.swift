@@ -20,32 +20,19 @@ class Network {
     func retrievePlayersJSON(completionHandler: @escaping PlayerCompletionHandler) {
         Alamofire.request(url).responseJSON { response in
             if let json = response.result.value as? [String: Any] {
+                var success = false
                 if let players = json["players"] as? [[String: Any]] {
-                    for player in players {
-                        var playerObject = Player()
-                        if let firstName = player["first_name"] as? String {
-                            playerObject.firstName = firstName
-                        }
-                        if let fppg = player["fppg"] as? Double {
-                            playerObject.fppg = Double(round(fppg * 10000)/10000) // 4 digit round-off
-                        }
-                        if let images = player["images"] as? [String: Any] {
-                            if let defaulImage = images["default"] as? [String: Any] {
-                                    let imageUrl = DefaultImage()
-                                    if let url = defaulImage["url"] as? String {
-                                        imageUrl.url = url
-                                    playerObject.imageUrl.append(imageUrl)
-                                    
-                                }}
-                        }
-                        self.player.append(playerObject)
-                    }
+                    success = true
+                    self.player = Player.parseJsonObject(json: players)
                 }
+                else{
+                    self.player = [Player]()
+                }
+                completionHandler(success, self.player)
             }
-            completionHandler(true, self.player)
-
+            
         }
-            }
+    }
 }
 
 class DefaultImage {

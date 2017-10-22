@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0063BA6893733ED3E4C3330D /* Pods_FanUnoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42603A562A951D8C52E66691 /* Pods_FanUnoTests.framework */; };
 		BEE3288BF4E5859FCC0F517F /* Pods_FanUno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804F4FB1B49E811AA0AF74DA /* Pods_FanUno.framework */; };
 		C240B3651F96AE8F00129FB2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B3641F96AE8F00129FB2 /* Network.swift */; };
-		C240B3681F96B69600129FB2 /* PlayerItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B3671F96B69600129FB2 /* PlayerItems.swift */; };
 		C240B36A1F96C3EC00129FB2 /* PlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B3691F96C3EC00129FB2 /* PlayerItem.swift */; };
 		C2BA58F91F9BC410001D76DF /* PlayersCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA58F81F9BC410001D76DF /* PlayersCardView.swift */; };
 		C2BA58FC1F9BCA7A001D76DF /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA58FB1F9BCA7A001D76DF /* NSLayoutConstraint+Extension.swift */; };
 		C2BA59011F9BE5EC001D76DF /* PlayersCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2BA59001F9BE5EC001D76DF /* PlayersCardView.xib */; };
+		C2F1BF671F9DEC0B006F10DC /* FanUnoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F1BF661F9DEC0B006F10DC /* FanUnoTests.swift */; };
+		C2F1BF6F1F9DEDA3006F10DC /* PlayerItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F1BF6E1F9DEDA3006F10DC /* PlayerItemTest.swift */; };
+		C2F1BF711F9DF1EB006F10DC /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F1BF701F9DF1EB006F10DC /* NetworkTest.swift */; };
 		C2F316B91F9693AC00FDC4B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F316B81F9693AC00FDC4B5 /* AppDelegate.swift */; };
 		C2F316BB1F9693AC00FDC4B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F316BA1F9693AC00FDC4B5 /* ViewController.swift */; };
 		C2F316BE1F9693AC00FDC4B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F316BC1F9693AC00FDC4B5 /* Main.storyboard */; };
@@ -22,15 +25,32 @@
 		C2F316C61F9693AC00FDC4B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F316C41F9693AC00FDC4B5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C2F1BF691F9DEC0B006F10DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F316AD1F9693AC00FDC4B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F316B41F9693AC00FDC4B5;
+			remoteInfo = FanUno;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		01E03359E8CBDD274510F8C4 /* Pods-FanUnoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanUnoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanUnoTests/Pods-FanUnoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42603A562A951D8C52E66691 /* Pods_FanUnoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanUnoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F270ABAC0EC625B1A909AB /* Pods-FanUnoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanUnoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanUnoTests/Pods-FanUnoTests.release.xcconfig"; sourceTree = "<group>"; };
 		71420554E0379CFA4621F20B /* Pods-FanUno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanUno.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanUno/Pods-FanUno.debug.xcconfig"; sourceTree = "<group>"; };
 		804F4FB1B49E811AA0AF74DA /* Pods_FanUno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanUno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C240B3641F96AE8F00129FB2 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		C240B3671F96B69600129FB2 /* PlayerItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerItems.swift; sourceTree = "<group>"; };
 		C240B3691F96C3EC00129FB2 /* PlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerItem.swift; sourceTree = "<group>"; };
 		C2BA58F81F9BC410001D76DF /* PlayersCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersCardView.swift; sourceTree = "<group>"; };
 		C2BA58FB1F9BCA7A001D76DF /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
 		C2BA59001F9BE5EC001D76DF /* PlayersCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayersCardView.xib; sourceTree = "<group>"; };
+		C2F1BF641F9DEC0B006F10DC /* FanUnoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanUnoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F1BF661F9DEC0B006F10DC /* FanUnoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanUnoTests.swift; sourceTree = "<group>"; };
+		C2F1BF681F9DEC0B006F10DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F1BF6E1F9DEDA3006F10DC /* PlayerItemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerItemTest.swift; sourceTree = "<group>"; };
+		C2F1BF701F9DF1EB006F10DC /* NetworkTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
 		C2F316B51F9693AC00FDC4B5 /* FanUno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanUno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F316B81F9693AC00FDC4B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2F316BA1F9693AC00FDC4B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +63,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C2F1BF611F9DEC0B006F10DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0063BA6893733ED3E4C3330D /* Pods_FanUnoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2F316B21F9693AC00FDC4B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				804F4FB1B49E811AA0AF74DA /* Pods_FanUno.framework */,
+				42603A562A951D8C52E66691 /* Pods_FanUnoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,6 +96,8 @@
 			children = (
 				71420554E0379CFA4621F20B /* Pods-FanUno.debug.xcconfig */,
 				D2267759809071A76FAF944F /* Pods-FanUno.release.xcconfig */,
+				01E03359E8CBDD274510F8C4 /* Pods-FanUnoTests.debug.xcconfig */,
+				62F270ABAC0EC625B1A909AB /* Pods-FanUnoTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -74,7 +105,6 @@
 		C240B3661F96B65800129FB2 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				C240B3671F96B69600129FB2 /* PlayerItems.swift */,
 				C240B3691F96C3EC00129FB2 /* PlayerItem.swift */,
 			);
 			name = "Data Model";
@@ -105,10 +135,22 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		C2F1BF651F9DEC0B006F10DC /* FanUnoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F1BF701F9DF1EB006F10DC /* NetworkTest.swift */,
+				C2F1BF6E1F9DEDA3006F10DC /* PlayerItemTest.swift */,
+				C2F1BF661F9DEC0B006F10DC /* FanUnoTests.swift */,
+				C2F1BF681F9DEC0B006F10DC /* Info.plist */,
+			);
+			path = FanUnoTests;
+			sourceTree = "<group>";
+		};
 		C2F316AC1F9693AC00FDC4B5 = {
 			isa = PBXGroup;
 			children = (
 				C2F316B71F9693AC00FDC4B5 /* FanUno */,
+				C2F1BF651F9DEC0B006F10DC /* FanUnoTests */,
 				C2F316B61F9693AC00FDC4B5 /* Products */,
 				2FA0FA2E495A15ED6BD6B8C0 /* Pods */,
 				1C554DA9E9647B844D6354DB /* Frameworks */,
@@ -119,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				C2F316B51F9693AC00FDC4B5 /* FanUno.app */,
+				C2F1BF641F9DEC0B006F10DC /* FanUnoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +187,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C2F1BF631F9DEC0B006F10DC /* FanUnoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F1BF6D1F9DEC0B006F10DC /* Build configuration list for PBXNativeTarget "FanUnoTests" */;
+			buildPhases = (
+				A95F6FE9959A8F8D1FB3B6A4 /* [CP] Check Pods Manifest.lock */,
+				C2F1BF601F9DEC0B006F10DC /* Sources */,
+				C2F1BF611F9DEC0B006F10DC /* Frameworks */,
+				C2F1BF621F9DEC0B006F10DC /* Resources */,
+				A6B935E9114C659C8ED0927F /* [CP] Embed Pods Frameworks */,
+				287B69B626A1CB5FEB1A33E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F1BF6A1F9DEC0B006F10DC /* PBXTargetDependency */,
+			);
+			name = FanUnoTests;
+			productName = FanUnoTests;
+			productReference = C2F1BF641F9DEC0B006F10DC /* FanUnoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C2F316B41F9693AC00FDC4B5 /* FanUno */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2F316CA1F9693AC00FDC4B5 /* Build configuration list for PBXNativeTarget "FanUno" */;
@@ -170,10 +234,16 @@
 		C2F316AD1F9693AC00FDC4B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Rekha Manju Kiran";
 				TargetAttributes = {
+					C2F1BF631F9DEC0B006F10DC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = WCFL462RM7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2F316B41F9693AC00FDC4B5;
+					};
 					C2F316B41F9693AC00FDC4B5 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -194,11 +264,19 @@
 			projectRoot = "";
 			targets = (
 				C2F316B41F9693AC00FDC4B5 /* FanUno */,
+				C2F1BF631F9DEC0B006F10DC /* FanUnoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C2F1BF621F9DEC0B006F10DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2F316B31F9693AC00FDC4B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +291,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		287B69B626A1CB5FEB1A33E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanUnoTests/Pods-FanUnoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4CBE6082B6B2497E010D82A5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +339,52 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A6B935E9114C659C8ED0927F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FanUnoTests/Pods-FanUnoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS10.3/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-iOS10.3/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda-iOS10.3/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS10.3/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS10.3/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/pop-iOS10.3/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanUnoTests/Pods-FanUnoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95F6FE9959A8F8D1FB3B6A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanUnoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E24D6724C41A510756B6C433 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,12 +392,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FanUno/Pods-FanUno-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS10.2/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-iOS10.2/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda-iOS10.2/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS10.2/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS10.2/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/pop-iOS10.2/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -277,6 +416,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C2F1BF601F9DEC0B006F10DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F1BF671F9DEC0B006F10DC /* FanUnoTests.swift in Sources */,
+				C2F1BF711F9DF1EB006F10DC /* NetworkTest.swift in Sources */,
+				C2F1BF6F1F9DEDA3006F10DC /* PlayerItemTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2F316B11F9693AC00FDC4B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,7 +434,6 @@
 				C2BA58F91F9BC410001D76DF /* PlayersCardView.swift in Sources */,
 				C2F316BB1F9693AC00FDC4B5 /* ViewController.swift in Sources */,
 				C240B3651F96AE8F00129FB2 /* Network.swift in Sources */,
-				C240B3681F96B69600129FB2 /* PlayerItems.swift in Sources */,
 				C2BA58FC1F9BCA7A001D76DF /* NSLayoutConstraint+Extension.swift in Sources */,
 				C2F316B91F9693AC00FDC4B5 /* AppDelegate.swift in Sources */,
 				C240B36A1F96C3EC00129FB2 /* PlayerItem.swift in Sources */,
@@ -293,6 +441,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F1BF6A1F9DEC0B006F10DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F316B41F9693AC00FDC4B5 /* FanUno */;
+			targetProxy = C2F1BF691F9DEC0B006F10DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C2F316BC1F9693AC00FDC4B5 /* Main.storyboard */ = {
@@ -314,6 +470,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C2F1BF6B1F9DEC0B006F10DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E03359E8CBDD274510F8C4 /* Pods-FanUnoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = WCFL462RM7;
+				INFOPLIST_FILE = FanUnoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manjukiran.FanUnoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanUno.app/FanUno";
+			};
+			name = Debug;
+		};
+		C2F1BF6C1F9DEC0B006F10DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F270ABAC0EC625B1A909AB /* Pods-FanUnoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = WCFL462RM7;
+				INFOPLIST_FILE = FanUnoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manjukiran.FanUnoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanUno.app/FanUno";
+			};
+			name = Release;
+		};
 		C2F316C81F9693AC00FDC4B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -434,6 +624,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C2F1BF6D1F9DEC0B006F10DC /* Build configuration list for PBXNativeTarget "FanUnoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F1BF6B1F9DEC0B006F10DC /* Debug */,
+				C2F1BF6C1F9DEC0B006F10DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C2F316B01F9693AC00FDC4B5 /* Build configuration list for PBXProject "FanUno" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

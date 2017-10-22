@@ -191,8 +191,7 @@ class HomeViewController: UIViewController, KolodaViewDataSource,KolodaViewDeleg
                 self.leftTitleLabel.text = ""
                 self.rightTitleLabel.text = ""
                 self.decisionLabel.text = ""
-            }
-            
+            }            
         }
     }
     
@@ -210,8 +209,8 @@ class HomeViewController: UIViewController, KolodaViewDataSource,KolodaViewDeleg
         playerScoreLabel.text = "Score: \(playerScore)  ||  Attempts :  \(self.swipeCardView.currentCardIndex)"
         if(playerScore == 10)
         {
-            var alert = UIAlertController.init(title: "Congratulations", message: "You have achieved 10 correct guesses. Lets see if you can better your performance the next time", preferredStyle: UIAlertControllerStyle.alert)
-            var alertAction = UIAlertAction.init(title: "OK", style: UIAlertActionStyle.default, handler: { (action) in
+            let alert = UIAlertController.init(title: "Congratulations", message: "You have achieved 10 correct guesses. Lets see if you can better your performance the next time", preferredStyle: UIAlertControllerStyle.alert)
+            let alertAction = UIAlertAction.init(title: "OK", style: UIAlertActionStyle.default, handler: { (action) in
                 self.generateRandomPlayerCombinations()
             })
             alert.addAction(alertAction)

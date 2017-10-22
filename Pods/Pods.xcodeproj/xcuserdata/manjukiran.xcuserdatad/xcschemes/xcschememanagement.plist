@@ -4,22 +4,42 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
+		<key>Alamofire-iOS10.2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>AlamofireObjectMapper.xcscheme</key>
+		<key>Alamofire-iOS10.3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Koloda.xcscheme</key>
+		<key>AlamofireObjectMapper-iOS10.2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>ObjectMapper.xcscheme</key>
+		<key>AlamofireObjectMapper-iOS10.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Koloda-iOS10.2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Koloda-iOS10.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjectMapper-iOS10.2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjectMapper-iOS10.3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -29,12 +49,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SDWebImage.xcscheme</key>
+		<key>Pods-FanUnoTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>pop.xcscheme</key>
+		<key>SDWebImage-iOS10.2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage-iOS10.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop-iOS10.2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop-iOS10.3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,37 +77,72 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>20151774CE2F5FA6B8126D4F5ED1C5FE</key>
+		<key>164D42977B9DB41AE8C35613AE919719</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2F5622F3B18DF497981AB58C6D1FC72F</key>
+		<key>2F50FEC4B8A184CF94834FF870EC3AC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>65A185C313D45F6FA8CDFE15473DB0EF</key>
+		<key>55FBF5E6C954AE4B4B1A089DEC40A3CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<key>779DCD8B30CD47CF262B7A3AD14EECA1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8B1B22E681ECB890C4ADE14DDF1B179D</key>
+		<key>82E091C9A8B5F7DBF6B2D6E63D94DF1F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9502FB01641FBABB78522037E882757B</key>
+		<key>8CC17F49564EE1315D4CC2466EE82071</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9BDD0E42347ED8EDEA19928B85B79254</key>
+		<key>9830ACF6619663CEF1F513FA8E21FD13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C1F54A9A594F2B9974F393D2B6C04F56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF2C929BF8B208385AB4817187424F47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D20AAE8E61DEC4ACE9587B3511A37565</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE9E4CD381DB2F63816BA4084A3DCA18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0F9A4B1E32D55D75CACE55DA34DD0CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6B5669AF9E555860C8CE014F4AC99FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E77C49EC7DCEA7BB4866F0A2D5F27990</key>
 		<dict>
 			<key>primary</key>
 			<true/>

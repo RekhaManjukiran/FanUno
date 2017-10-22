@@ -2,7 +2,7 @@
 //  PlayersCardViewController.swift
 //  FanUno
 //
-//  Created by Manju Kiran on 21/10/2017.
+//  Created by Rekha Manju Kiran on 21/10/2017.
 //  Copyright © 2017 Rekha Manju Kiran. All rights reserved.
 //
 
